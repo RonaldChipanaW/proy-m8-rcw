@@ -1,0 +1,14 @@
+/* Tema claro por defecto */
+:root {
+  --bulma-body-background-color: #ffffff;
+  --bulma-body-color: #363636;
+  --bulma-link: #3273dc;
+  --bulma-link-hover: #2759a5;
+}
+
+
+
+body{
+  background-color: white;
+}
+
