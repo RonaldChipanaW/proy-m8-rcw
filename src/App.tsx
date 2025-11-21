@@ -286,7 +286,9 @@ const App: React.FC = () => {
                 // Placeholder temporal de 1200x500
                 imageUrl="../img/img1.png" 
             />
-
+            <InterpretationSection 
+                title="La Paz y Cochabamba muestran alta variabilidad en eficiencia, mientras Potosí y Pando presentan distribuciones más concentradas pero con valores generalmente más bajos." 
+            />
             
             {/* GRÁFICO 2: Visualización de Clusters Regionales */}
             <ChartPlaceholder 
@@ -296,9 +298,7 @@ const App: React.FC = () => {
             />
             {/* INTERPRETACIÓN 2 */}
             <InterpretationSection 
-                title="Existen diferencias significativas en la eficiencia publicitaria entre regiones
-La relación gasto-resultados no es homogénea en todo el país
-Se requiere un modelo que considere estas diferencias regionales" 
+                title="Relación positiva entre gasto y resultados, pero con rendimientos decrecientes: mayores inversiones no garantizan proporcionalmente más resultados, especialmente en La Paz y Santa Cruz." 
             />
         </div>
 
@@ -312,14 +312,12 @@ Se requiere un modelo que considere estas diferencias regionales"
             <ChartPlaceholder 
                 title="Gráfico 3: ANÁLISIS PARA SELECCIÓN DE TÉCNICA:"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img4.png" 
+                imageUrl="../img/img3.png" 
             />
 
             {/* INTERPRETACIÓN 2 */}
             <InterpretationSection 
-                title="Existen diferencias significativas en la eficiencia publicitaria entre regiones
-La relación gasto-resultados no es homogénea en todo el país
-Se requiere un modelo que considere estas diferencias regionales" 
+                title="El codo en K=3 clusters indica el punto óptimo donde agregar más grupos no mejora significativamente la cohesión interna de los clusters." 
             />
         </div>
 
@@ -342,7 +340,7 @@ Se requiere un modelo que considere estas diferencias regionales"
             <h4 className="font-semibold text-gray-700 mt-4">Función Matemática del Modelo Híbrido:</h4>
             {/* Bloque visualmente distinto para la fórmula */}
             <div className="bg-gray-800 text-yellow-300 p-4 rounded-lg text-xs sm:text-sm overflow-x-auto font-mono mt-2 shadow-inner">
-              <p className="mb-2 text-gray-400">// Para cada cluster k ∈ {1,2,3}:</p>
+              <p className="mb-2 text-gray-400">// Para cada cluster k ∈ {'{'}1,2,3{'}'}:</p>
               <p className="mb-3">
                 <span className="text-pink-400">Y</span><sub className="text-pink-400">k</sub> = 
                 <span className="text-green-300"> β</span><sub className="text-green-300">0k</sub> + 
@@ -391,12 +389,12 @@ Se requiere un modelo que considere estas diferencias regionales"
             <ChartPlaceholder 
                 title="Gráfico 4: USO DE TÉCNICAS COMPETIDORAS:"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img5.png" 
+                imageUrl="../img/img4.png" 
             />
 
             {/* INTERPRETACIÓN 2 */}
             <InterpretationSection 
-                title="" 
+                title="El modelo híbrido supera drásticamente a las técnicas tradicionales, reduciendo el error (RMSE) en más del 80% comparado con la regresión lineal simple." 
             />
         </div>
 
@@ -413,13 +411,19 @@ Se requiere un modelo que considere estas diferencias regionales"
             <ChartPlaceholder 
                 title="Gráfico 5: COMPARACIÓN EN TÉRMINOS DE CRITERIO PRECISO"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img6.png" 
+                imageUrl="../img/img5.png" 
+            />
+            <InterpretationSection 
+                title="El modelo híbrido es 5.5 veces más preciso que la regresión lineal y 6.4 veces mejor que Random Forest, validando su superioridad predictiva." 
             />
 
             <ChartPlaceholder 
                 title="Gráfico 5: COMPARACIÓN EN TÉRMINOS DE CRITERIO PRECISO"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img7.png" 
+                imageUrl="../img/img6.png" 
+            />
+            <InterpretationSection 
+                title="Visualmente evidente: el modelo híbrido reduce drásticamente el error de predicción, con un RMSE significativamente inferior al de los métodos tradicionales." 
             />
         </div>
 
