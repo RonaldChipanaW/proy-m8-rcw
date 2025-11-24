@@ -282,23 +282,73 @@ const App: React.FC = () => {
         <div className="space-y-8 mb-12">
             {/* GRÁFICO 1: Comparación de Modelos (RMSE) */}
             <ChartPlaceholder 
-                title="Gráfico 1: Distribución de eficiencia por Región"
+                title="Gráfico 1: "
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img1.png" 
+                imageUrl="../img/e1/fg1_1.png" 
             />
             <InterpretationSection 
-                title="La Paz y Cochabamba muestran alta variabilidad en eficiencia, mientras Potosí y Pando presentan distribuciones más concentradas pero con valores generalmente más bajos." 
+                title="" 
             />
             
             {/* GRÁFICO 2: Visualización de Clusters Regionales */}
             <ChartPlaceholder 
-                title="Gráfico 2: Realación entre gastos resultados por Región"
+                title="Gráfico 2: "
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img2.png" 
+                imageUrl="../img/e1/fg1_2.png" 
             />
             {/* INTERPRETACIÓN 2 */}
             <InterpretationSection 
-                title="Relación positiva entre gasto y resultados, pero con rendimientos decrecientes: mayores inversiones no garantizan proporcionalmente más resultados, especialmente en La Paz y Santa Cruz." 
+                title="" 
+            />
+                        {/* GRÁFICO 2: Visualización de Clusters Regionales */}
+            <ChartPlaceholder 
+                title="Gráfico 2: "
+                // Placeholder temporal de 1200x500
+                imageUrl="../img/e1/fg1_3.png" 
+            />
+            {/* INTERPRETACIÓN 2 */}
+            <InterpretationSection 
+                title="" 
+            />
+                        {/* GRÁFICO 2: Visualización de Clusters Regionales */}
+            <ChartPlaceholder 
+                title="Gráfico 2: "
+                // Placeholder temporal de 1200x500
+                imageUrl="../img/e1/fg1_4.png" 
+            />
+            {/* INTERPRETACIÓN 2 */}
+            <InterpretationSection 
+                title="" 
+            />
+                        {/* GRÁFICO 2: Visualización de Clusters Regionales */}
+            <ChartPlaceholder 
+                title="Gráfico 2: "
+                // Placeholder temporal de 1200x500
+                imageUrl="../img/e1/fg1_5.png" 
+            />
+            {/* INTERPRETACIÓN 2 */}
+            <InterpretationSection 
+                title="" 
+            />
+                        {/* GRÁFICO 2: Visualización de Clusters Regionales */}
+            <ChartPlaceholder 
+                title="Gráfico 2: "
+                // Placeholder temporal de 1200x500
+                imageUrl="../img/e1/fg1_6.png" 
+            />
+            {/* INTERPRETACIÓN 2 */}
+            <InterpretationSection 
+                title="" 
+            />
+                        {/* GRÁFICO 2: Visualización de Clusters Regionales */}
+            <ChartPlaceholder 
+                title="Gráfico 2: "
+                // Placeholder temporal de 1200x500
+                imageUrl="../img/e1/fg1_7.png" 
+            />
+            {/* INTERPRETACIÓN 2 */}
+            <InterpretationSection 
+                title="" 
             />
         </div>
 
@@ -312,7 +362,7 @@ const App: React.FC = () => {
             <ChartPlaceholder 
                 title="Gráfico 3: ANÁLISIS PARA SELECCIÓN DE TÉCNICA:"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img3.png" 
+                imageUrl="../img/e2/fg2_1.png" 
             />
 
             {/* INTERPRETACIÓN 2 */}
@@ -389,7 +439,7 @@ const App: React.FC = () => {
             <ChartPlaceholder 
                 title="Gráfico 4: USO DE TÉCNICAS COMPETIDORAS:"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img4.png" 
+                imageUrl="../img/e3/fg3_1.png" 
             />
 
             {/* INTERPRETACIÓN 2 */}
@@ -411,7 +461,7 @@ const App: React.FC = () => {
             <ChartPlaceholder 
                 title="Gráfico 5: COMPARACIÓN EN TÉRMINOS DE CRITERIO PRECISO"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img5.png" 
+                imageUrl="../img/e4/fg4_1.png" 
             />
             <InterpretationSection 
                 title="El modelo híbrido es 5.5 veces más preciso que la regresión lineal y 6.4 veces mejor que Random Forest, validando su superioridad predictiva." 
@@ -420,7 +470,7 @@ const App: React.FC = () => {
             <ChartPlaceholder 
                 title="Gráfico 5: COMPARACIÓN EN TÉRMINOS DE CRITERIO PRECISO"
                 // Placeholder temporal de 1200x500
-                imageUrl="../img/img6.png" 
+                imageUrl="../img/e4/fg4_1.png" 
             />
             <InterpretationSection 
                 title="Visualmente evidente: el modelo híbrido reduce drásticamente el error de predicción, con un RMSE significativamente inferior al de los métodos tradicionales." 
